@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900 antialiased;
+}
+
+.copy-button {
+  @apply transition-all duration-200;
+}
+
+.copy-button:active {
+  @apply scale-95;
+}
